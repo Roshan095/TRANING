@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Car Showcase</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: #eee;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .car-card {
+      background: #1e1e1e;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.7);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .car-card:hover {
+      transform: scale(1.05);
+    }
+    .car-card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      display: block;
+    }
+    .car-card h3 {
+      margin: 15px 0;
+      font-weight: 600;
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1>Car Showcase</h1>
+  <div class="grid-container">
+    <a class="car-card" href="car1.html">
+      <img src="images/car1.jpg" alt="FORTUNER" />
+      <h3>FORTUNER</h3>
+    </a>
+    <a class="car-card" href="car2.html">
+      <img src="images/car2.jpg" alt="CHALLENGER" />
+      <h3>CHALLENGER</h3>
+    </a>
+    <a class="car-card" href="car3.html">
+      <img src="images/car3.jpg" alt="MUSTANG" />
+      <h3>MUSTANG</h3>
+    </a>
+    <a class="car-card" href="car4.html">
+      <img src="images/car4.jpg" alt="EVEREST" />
+      <h3>EVEREST</h3>
+    </a>
+    <a class="car-card" href="car5.html">
+      <img src="images/car5.jpg" alt="HECTOR" />
+      <h3>HECTOR</h3>
+    </a>
+    <a class="car-card" href="car6.html">
+      <img src="images/car6.jpg" alt="LEXUS" />
+      <h3>LEXUS</h3>
+    </a>
+    <a class="car-card" href="car7.html">
+      <img src="images/car7.jpg" alt="GMC" />
+      <h3>GMC</h3>
+    </a>
+    <a class="car-card" href="car8.html">
+      <img src="images/car8.jpg" alt="BMW" />
+      <h3>BMW</h3>
+    </a>
+    <a class="car-card" href="car9.html">
+      <img src="images/car9.jpg" alt="JAGUAR" />
+      <h3>JAGUAR</h3>
+    </a>
+    <a class="car-card" href="car10.html">
+      <img src="images/car10.jpg" alt="CADILLAC" />
+      <h3>CADILLAC</h3>
+    </a>
+  </div>
+</body>
+</html>
